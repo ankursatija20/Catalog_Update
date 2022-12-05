@@ -35,7 +35,7 @@ def catalog_data(urlload
     return 0
 
 if __name__=='__main__':
-    url = 'http://localhost/upload'
+    url = 'http://localhost/upload'              #/localhost/fruits/
     
     user = os.getenv('USER')
     description_directory = '/home/{}/Catalog_Update/supplier_data/descriptions/'.format(user)
